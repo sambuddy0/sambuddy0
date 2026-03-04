@@ -1,0 +1,56 @@
+header {
+	background-color: grey;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#top-left {
+	color: blue;
+}
+
+#top-middle {
+	color: white;
+}
+
+#top-right {
+	color: red;
+}
+
+#table {
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+
+#addArticleForm {
+	margin: 0 auto;
+	max-width: 600px;
+	margin-left: 80px;
+	display: grid;
+	grid-template-columns: auto 1fr;
+	grid-gap: 10px;
+}
+
+#addArticleForm label {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+#addArticleForm input, #addArticleForm select {
+	max-width: 200px;
+}
+
+#publishdate-container {
+	display: flex;
+	gap: 10px;
+}
+
+
+footer {
+	padding: 10px;
+	text-align: center;
+	background-color: grey;
+	color: white;
+}
